@@ -2,96 +2,232 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Sanjarbek Hudaiberdiev, PhD
+    - name: Email
+      value: kyrgyzbala@gmail.com, hudaiber@nih.gov
+
+- title: Scientific research areas
+  type: list
+  contents:
+    - Genomics
+    - Gene Regulation
+    - Disease Genetics (Type 2 Diabetes)
+    - Evolution
+    - Origin of Life
+    - Machine/Deep Learning
+    - Statistics
+
+- title: Technical Skills & Domain Knowledges
+  type: map
+  contents:
+    - name: Biology
+      value: Gene regulation (enhancers, silencers), 3D chromatin organization, condensates. Type 2 Diabetes- pancreatic islet (β) cells, islet-specific TFs, risk loci (GWAS). PopGen - common/rare variant analysis, LD blocks, GWAS, PRS. Evolution - non-coding regions, ultra-conserved regions, human-specific evolution (HARs, hCONDELs), protein(domain) evolution, phylogenetics/phylogenomics, genomic synteny, host-parasite arms race
+    - name: ML/stats
+      value: Statistical Inference, Biostatistics, Bayesian modeling, Probabilistic Reasoning, Causality, ConvNets, LSTMs, Transformers
+    - name: ML tools
+      value: Tensorflow, PyTorch, Keras, Scikit-learn, NumPy/SciPy, R, MATLAB/Octave
+    - name: Bioinformatics
+      value: GWAS, fine-mapping, e/s/raQTLs, MPRA, ChIP-seq, RNA-seq, ATAC-seq, Hi-C, ENCODE, Roadmap, HCA, 4D Nucleome, UK Biobank, Containers (Docker, Singularity), Workflows (Nextflow, Snakemake), Massive data processing, parallel computing, HPC (SLURM, SGE)
+    - name: Software Developement
+      value: OOP, functional programming, Unit tests, Git, CI/CD
     - name: Languages
-      value: English, German
+      value: Python, R, Rust (learning), Bash, MATLAB, C#, C/C++, Per
+    - name: Databases
+      value: MySQL, PostgreSQL, SQLite, SQL Server 2008/2010, Oracle 10g.
+    - name: OS
+      value: Linux, MacOS
+      
+- title: Experience
+  type: time_table
+  contents:
+    - title: Staff Scientist
+      institution: NCBI, NIH, Bethesda, MD
+      year: 2023 
+      description:
+        - Integrating multi-omics (TF/Histone ChIP-seq, DHS, ATAC-seq, HiC, RNA-binding proteins’ binding sites, methylome) data to model disease transcriptional codes using multi-modal fusion deep neural networks to detect disease-causal genetic variation
+        - Using Deep Learning to assess the phenotypic impacts of human-specific (vs. Macaques and Chimpanzees) INDELs in enhancers.
+    
+    - title: Research Fellow
+      institution: NCBI, NIH, Bethesda, MD
+      year: 2020 - 2023
+      description:
+        - Developed TREDNet - A novel Deep Learning method for enhancer detection.
+        - Lead a large multidisciplinary collaboration project to apply TREDNet to detect GWAS candidate causal mutations linked to Type 2 Diabetes and experimentally verified.
+        - Developed a model for explaining the high-occupancy target (HOT) regions in humans using transcriptional condensates.
+
+    - title: Postdoctoral Fellow
+      institution: NCBI, NIH, Bethesda, MD
+      year: 2018-2020
+      maindescription: Mentor - Ivan Ovcharenko, PhD
+      description:
+        - Spearheaded the transition to Deep Learning methods to study the enhancers.
+        - Automated the distributed training of large models (Keras+Tensorflow) on Google Cloud and Biowulf (NIH’s HPC cluster).
+        - Applied ConvNets and LSTMs to model gene regulation and decompose LD blocks.
+        - Managed and implemented the deployment of decades-worth codebase developed in-house to containers (Docker, singularity) and workflows management systems (Nextflow, Snakemake).
+    
+    - title: Postdoctoral Fellow
+      institution: NCBI, NIH, Bethesda, MD
+      year: 2015-2018
+      maindescription: Mentor - Eugene Koonin, PhD
+      description:
+        - Studied the general evolution of CRISPR/Cas systems, as well as deep focus on protein CRISPR-associated 4 (Cas4). Paper is cited >55 times, including by Prof. Jennifer Doudna, and has given me an Erdös number of 3.
+        - Analyzed evolutionary links between microbial adaptive immune systems and other selfish elements.
+        - Gained an expert understanding of microbial genetics, comparative genomics, molecular evolutionary analysis.
+    
+    - title: Graduate research program
+      institution: ICGEB, Trieste, Italy
+      year: 2011 - 2014
+      description:
+        - Thesis project - Functional annotation of Quorum Sensing systems in bacteria using subsystem based approach.
+        - Implemented a wide range of algorithms and tools of computational genomics and sequence analysis
+    
+    - title: Software developer
+      institution: Octopus, Bishkek, Kyrgyzstan
+      year: 2010 - 2011
+      description:
+        - Developed a concept for data analysis module for an existing commercial software for micro-financing.
+        - Implemented financial data analysis module in .NET environment using C# and MS SQL Server.
+        - Developed an ETL module to consolidate the data from government and third-party vendors using Pentaho and Python.
+    
+    - title: Oracle Database Developer
+      institution: Demirbank, Bishkek, Kyrgyzstan
+      year: 2009 - 2010
+      description:
+        - Designed and implemented backup strategies of Oracle database and decreased the backup time by a factor of 10.
+        - Lead the project of transitioning the existing infrastructure to Oracle Blade Modules.
+        - Conducted SQL tuning and optimization which lead to reduction in ATM transaction latencies during the peak times from 10 seconds to < 1 second.
+    
+    - title: Research assistant
+      institution: Istanbul Technical University, Turkey
+      year: 2008 - 2009
+      maindescription: Mentor - Prof. Zehra CATALTEPE
+      description:
+        - Designed and implemented Machine Learning experiments on protein function prediction using profile-HMMs.
+        - Obtained a formal graduate training on classical Machine Learning (PRML by Christopher Bishop)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Bioinformatics
+      institution: ICGEB, Trieste, Italy
+      year: 2011 - 2014
+      maindescription: Supervisor - Prof. Sándor PONGOR
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Thesis - “Computational analysis of quorum sensing systems in bacterial genomes - Developing automated annotation tools.” 
+        - Supervisor - Prof. Sándor PONGOR
+    
+    - title: MSc in Machine Learning
+      institution: Istanbul Technical University, Istanbul, Turkey
+      year: 2006 - 2008
 
-- title: Experience
+    - title: BSc in Computer Engineering
+      institution: Erciyes University, Kayseri, Turkey
+      year: 2002 - 2006
+
+- title: Oral presentations
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - year: 2023
+      items:
+        - Sequence characteristics and an accurate model of abundant hyperactive loci in the human genome NLM IRP Seminar
+    - year: 2022
+      items:
+        - Transcriptional regulation and disease genetics using Deep Learning NLM IRP Seminar
+    - year: 2021
+      items:
+        - Deep causality in non-coding GWAS SNPs. NLM Summer Lectures Series. NLM
+    - year: 2020
+      items:
+        - Using Deep Learning to to infer causality of GWAS SNPs. METU, Ankara, Turkey
+    - year: 2019
+      items:
+        - Recurrent Language model for enhancers. NLM Summer Lectures Series. NLM
+        - Understanding the grammar of enhancers using Deep Learning. NHGRI
+        - Causal mutations in ZRS enhancer region using Deep Learning. LBNL, Berkeley
+    - year: 2017
+      items:
+        - Phylogenomics of Cas4 family nucleases. AiChE. Raleigh, NC
+    - year: 2016
+      items:
+        - Current topics in biological sequence analysis. ICGEB. Trieste, Italy
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Posters
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2021
+      items:
+        - Hyperactive loci within non-coding regulatory regions of human genome. Mechanisms of Eukaryotic Transcription, CSHL, NY.
+    - year: 2019
+      items:
+        - Two-stage Deep Learning cross-tissue predictor of enhancers shows unprecedented accuracy in detection of causal regulatory variants. Mechanisms of Eukaryotic Transcription, CSHL, NY.
+        - Using Deep Learning to understand the grammar of enhancers. RECOMB, Washington DC
+    - year: 2017
+      items:
+        - Phylogenomics of Cas4 family nucleases. International conference on CRISPR. Technologies, Raleigh, NC
+    - year: 2013
+      items:
+        - Computational approaches to microbial communication/quorum sensing signaling. BAGECO, Ljubljana, Slovenia
 
-- title: Honors and Awards
+- title: Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Fellows Award for Research Excellence NIH, Bethesda, MD
+    - year: 2011
       items:
-        - Max Planck Medal
+        - ICGEB PhD fellowship ICGEB, Trieste, Italy
+    - year: 2008
+      items:
+        - Scholarship for research in Machine Learning/Bioinformatics. TUBITAK, Istanbul, Turkey
+    - year: 2007
+      items:
+        - Scholarship for BS final year project. TUBITAK, Kayseri, Turkey
+    - year: 2002
+      items:
+        -  Scholarship of Turkish ministry of education for undergraduate studies. 2002/2007, Turkey
+    - year: 2001
+      items:
+        - Bronze medals in national physics olympiads for highschool students. 2001/2002, Kyrgyzstan
 
-- title: Academic Interests
-  type: nested_list
+- title: Teaching & Mentorship
+  type: time_table
   contents:
-    - title: Topic 1.
+    - year: 2020
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Co-mentor, Post-bac student, NIH
+    - year: 2019
       items:
-        - Description 1.
-        - Description 2.
+        - Co-mentor, Summer research student, NIH
+    - year: 2018
+      items:
+        - Lead instructor, Summer intern journal club, NIH
+        - Co-mentor, Summer research student, NIH
 
-- title: Other Interests
+- title: Peer-reviewing for Scientific Journals
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - BMC Bioinformatics
+    - NAR Database
+    - Frontiers in Microbiology
+
+- title: Organization & Leadership
+  type: nested_list
+  contents:
+    - title: Commitee
+      items:
+        - Fellow Award for Research Excellence. Committee member 2023
+        - Fellow Award for Research Excellence. Committee member 2022
+    - title: Organised
+      items:
+        - Bioinformatics - Computer Methods in Molecular Biology –ICGEB, Trieste, Italy 2023
+        - Bioinformatics - Computer Methods in Molecular Biology –ICGEB, Trieste, Italy 2014
+        
+- title: Languages
+  type: list
+  contents:
+    - English
+    - Turkish
+    - Russian
+    - Italian
+    - Kyrgyz
