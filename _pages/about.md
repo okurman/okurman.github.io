@@ -5,7 +5,7 @@ permalink: /
 subtitle: 
 profile:
   align: right
-  image: profile.png
+  # image: profile.png
   image_circular: true # crops the image to make it circular
   more_info:
 
@@ -15,11 +15,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Computer Scientist (BSs) and Computational Biologist (PhD) passionate about bringing the ideas from AI to solve biological mysteries. 
+I am a Computational Biologist passionate about applying ML/AI to biological problems. 
 
-- More than 10 years of work experience in computational biology (7 years post graduate).
-- I enjoy digesting algorithmic concepts strictly through the lense of biological modeling.
-- A deep understanding of genetics and genomics.
-- My scientific "mother tongue" is mechanisms of transcriptional regulation.
-- 🌍 I'm based in New York.
-- 🤝 I'm open to collaborating on LLMs and applications in disease genetics and genomics
+- 13 years of work experience in computational biology (10 postgrad).
+- 6 years of machine learning exerience.
+- Expertise in Python, R, SQL, and modern data science workflows.
+- Experience in Software Development (Git, CI/CD, Unit testing).
+- A deep understanding of modern genetics and genomics methods.
+- Skilled writer and communicator.
+- Research leadership roles, editorial experience, and project management.
+
+

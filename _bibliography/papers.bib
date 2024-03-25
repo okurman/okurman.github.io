@@ -3,6 +3,51 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{hudaiberdiev2023sequence,
+  bibtex_show={true},
+  title={Sequence characteristics and an accurate model of high-occupancy target loci in the human genome.},
+  author={Hudaiberdiev, Sanjarbek and Ovcharenko, Ivan},
+  abstract={Enhancers and promoters are classically considered to be bound by a small set of TFs in a sequence-specific manner. This assumption has come under increasing skepticism as the datasets of ChIP-seq assays of TFs have expanded. In particular, high-occupancy target (HOT) loci attract hundreds of TFs with seemingly no detectable correlation between ChIP-seq peaks and DNA-binding motif presence. Here, we used a set of 1,003 TF ChIP-seq datasets (HepG2, K562, H1) to analyze the patterns of ChIP-seq peak co-occurrence in combination with functional genomics datasets. We identified 43,891 HOT loci forming at the promoter (53%) and enhancer (47%) regions. HOT promoters regulate housekeeping genes, whereas HOT enhancers are involved in tissue-specific process regulation. HOT loci form the foundation of human super-enhancers and evolve under strong negative selection, with some of these loci being located in ultraconserved regions. Sequence-based classification analysis of HOT loci suggested that their formation is driven by the sequence features, and the density of mapped ChIP-seq peaks across TF-bound loci correlates with sequence features and the expression level of flanking genes. Based on the affinities to bind to promoters and enhancers we detected 5 distinct clusters of TFs that form the core of the HOT loci. We report an abundance of HOT loci in the human genome and a commitment of 51% of all TF ChIP-seq binding events to HOT locus formation thus challenging the classical model of enhancer activity and propose a model of HOT locus formation based on the existence of large transcriptional condensates.},
+  journal={eLife (in submission)},
+  year={2023},
+  preview={high_occupancy.png},
+  google_scholar_id={0EnyYjriUFMC},
+  html={https://www.biorxiv.org/content/10.1101/2023.02.05.527203v3.abstract},
+  url={https://www.biorxiv.org/content/10.1101/2023.02.05.527203v3.abstract}
+}
+
+@article{hudaiberdiev2023modeling,
+  selected={true},
+  bibtex_show={true},
+  title={Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits},
+  author={Hudaiberdiev, Sanjarbek and Taylor, D Leland and Song, Wei and Narisu, Narisu and Bhuiyan, Redwan M and Taylor, Henry J and Tang, Xuming and Yan, Tingfen and Swift, Amy J and Bonnycastle, Lori L and others},
+  journal={Proceedings of the National Academy of Sciences},
+  abstract={Genetic association studies have identified hundreds of independent signals associated with type 2 diabetes (T2D) and related traits. Despite these successes, the identification of specific causal variants underlying a genetic association signal remains challenging. In this study, we describe a deep learning (DL) method to analyze the impact of sequence variants on enhancers. Focusing on pancreatic islets, a T2D relevant tissue, we show that our model learns islet-specific transcription factor (TF) regulatory patterns and can be used to prioritize candidate causal variants. At 101 genetic signals associated with T2D and related glycemic traits where multiple variants occur in linkage disequilibrium, our method nominates a single causal variant for each association signal, including three variants previously shown to alter reporter activity in islet-relevant cell types. For another signal associated with blood glucose levels, we biochemically test all candidate causal variants from statistical fine-mapping using a pancreatic islet beta cell line and show biochemical evidence of allelic effects on TF binding for the model-prioritized variant. To aid in future research, we publicly distribute our model and islet enhancer perturbation scores across ~67 million genetic variants. We anticipate that DL methods like the one presented in this study will enhance the prioritization of candidate causal variants for functional studies.},
+  volume={120},
+  number={35},
+  pages={e2206612120},
+  year={2023},
+  preview={t2d.v2.png},
+  google_scholar_id={Se3iqnhoufwC},
+  html={https://www.pnas.org/doi/full/10.1073/pnas.2206612120?doi=10.1073/pnas.2206612120},
+  url={https://www.pnas.org/doi/full/10.1073/pnas.2206612120?doi=10.1073/pnas.2206612120}
+}
+
+@article{hill2023chromdl,
+  bibtex_show={true},
+  title={ChromDL: A Next-Generation Regulatory DNA Classifier},
+  author={Hill, Christopher and Hudaiberdiev, Sanjarbek and Ovcharenko, Ivan},
+  journal={Bioinformatics},
+  abstract={Predicting the regulatory function of non-coding DNA using only the DNA sequence continues to be a major challenge in genomics. With the advent of improved optimization algorithms, faster GPU speeds, and more intricate machine learning libraries, hybrid convolutional and recurrent neural network architectures can be constructed and applied to extract crucial information from non-coding DNA. Using a comparative analysis of the performance of thousands of Deep Learning (DL) architectures, we developed ChromDL, a neural network architecture combining bidirectional gated recurrent units (BiGRU), convolutional neural networks (CNNs), and bidirectional long short-term memory units (BiLSTM), which significantly improves upon a range of prediction metrics compared to its predecessors in transcription factor binding site (TFBS), histone modification (HM), and DNase-I hypersensitive site (DHS) detection. Combined with a secondary model, it can be utilized for accurate classification of gene regulatory elements. The model can also detect weak transcription factor (TF) binding with higher accuracy as compared to previously developed methods and has the potential to accurately delineate TF binding motif specificities.},
+  pages={2023--01},
+  year={2023},
+  preview={chromdl.png},
+  doi={10.1101/2023.01.27.525971},
+  google_scholar_id={UebtZRa9Y70C},
+  html={https://academic.oup.com/bioinformatics/article/39/Supplement_1/i377/7210509},
+  url={https://academic.oup.com/bioinformatics/article/39/Supplement_1/i377/7210509}
+}
+
 @article{kvon2020comprehensive,
   bibtex_show={true},
   title={Comprehensive in vivo interrogation reveals phenotypic impact of human enhancer variants},
@@ -107,23 +152,6 @@
   url={https://www.mdpi.com/1422-0067/14/7/13727}
 }
 
-@article{hudaiberdiev2023modeling,
-  bibtex_show={true},
-  title={Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits},
-  author={Hudaiberdiev, Sanjarbek and Taylor, D Leland and Song, Wei and Narisu, Narisu and Bhuiyan, Redwan M and Taylor, Henry J and Tang, Xuming and Yan, Tingfen and Swift, Amy J and Bonnycastle, Lori L and others},
-  journal={Proceedings of the National Academy of Sciences},
-  abstract={Genetic association studies have identified hundreds of independent signals associated with type 2 diabetes (T2D) and related traits. Despite these successes, the identification of specific causal variants underlying a genetic association signal remains challenging. In this study, we describe a deep learning (DL) method to analyze the impact of sequence variants on enhancers. Focusing on pancreatic islets, a T2D relevant tissue, we show that our model learns islet-specific transcription factor (TF) regulatory patterns and can be used to prioritize candidate causal variants. At 101 genetic signals associated with T2D and related glycemic traits where multiple variants occur in linkage disequilibrium, our method nominates a single causal variant for each association signal, including three variants previously shown to alter reporter activity in islet-relevant cell types. For another signal associated with blood glucose levels, we biochemically test all candidate causal variants from statistical fine-mapping using a pancreatic islet beta cell line and show biochemical evidence of allelic effects on TF binding for the model-prioritized variant. To aid in future research, we publicly distribute our model and islet enhancer perturbation scores across ~67 million genetic variants. We anticipate that DL methods like the one presented in this study will enhance the prioritization of candidate causal variants for functional studies.},
-  volume={120},
-  number={35},
-  pages={e2206612120},
-  year={2023},
-  publisher={National Acad Sciences},
-  preview={t2d.png},
-  google_scholar_id={Se3iqnhoufwC},
-  html={https://www.pnas.org/doi/full/10.1073/pnas.2206612120?doi=10.1073/pnas.2206612120},
-  url={https://www.pnas.org/doi/full/10.1073/pnas.2206612120?doi=10.1073/pnas.2206612120}
-}
-
 @article{gelencser2012chromosomal,
   bibtex_show={true},
   title={Chromosomal arrangement of AHL-driven quorum sensing circuits in Pseudomonas},
@@ -140,36 +168,6 @@
 
 }
 
-@article{hudaiberdiev2023sequence,
-  bibtex_show={true},
-  title={Sequence characteristics and an accurate model of high-occupancy target loci in the human genome.},
-  author={Hudaiberdiev, Sanjarbek and Ovcharenko, Ivan},
-  abstract={Enhancers and promoters are classically considered to be bound by a small set of TFs in a sequence-specific manner. This assumption has come under increasing skepticism as the datasets of ChIP-seq assays of TFs have expanded. In particular, high-occupancy target (HOT) loci attract hundreds of TFs with seemingly no detectable correlation between ChIP-seq peaks and DNA-binding motif presence. Here, we used a set of 1,003 TF ChIP-seq datasets (HepG2, K562, H1) to analyze the patterns of ChIP-seq peak co-occurrence in combination with functional genomics datasets. We identified 43,891 HOT loci forming at the promoter (53%) and enhancer (47%) regions. HOT promoters regulate housekeeping genes, whereas HOT enhancers are involved in tissue-specific process regulation. HOT loci form the foundation of human super-enhancers and evolve under strong negative selection, with some of these loci being located in ultraconserved regions. Sequence-based classification analysis of HOT loci suggested that their formation is driven by the sequence features, and the density of mapped ChIP-seq peaks across TF-bound loci correlates with sequence features and the expression level of flanking genes. Based on the affinities to bind to promoters and enhancers we detected 5 distinct clusters of TFs that form the core of the HOT loci. We report an abundance of HOT loci in the human genome and a commitment of 51% of all TF ChIP-seq binding events to HOT locus formation thus challenging the classical model of enhancer activity and propose a model of HOT locus formation based on the existence of large transcriptional condensates.},
-  journal={bioRxiv},
-  pages={2023--02},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory},
-  preview={high_occupancy.png},
-  google_scholar_id={0EnyYjriUFMC},
-  html={https://www.biorxiv.org/content/10.1101/2023.02.05.527203v3.abstract},
-  url={https://www.biorxiv.org/content/10.1101/2023.02.05.527203v3.abstract}
-}
-
-@article{hill2023chromdl,
-  bibtex_show={true},
-  title={ChromDL: A Next-Generation Regulatory DNA Classifier},
-  author={Hill, Christopher and Hudaiberdiev, Sanjarbek and Ovcharenko, Ivan},
-  journal={bioRxiv},
-  abstract={Predicting the regulatory function of non-coding DNA using only the DNA sequence continues to be a major challenge in genomics. With the advent of improved optimization algorithms, faster GPU speeds, and more intricate machine learning libraries, hybrid convolutional and recurrent neural network architectures can be constructed and applied to extract crucial information from non-coding DNA. Using a comparative analysis of the performance of thousands of Deep Learning (DL) architectures, we developed ChromDL, a neural network architecture combining bidirectional gated recurrent units (BiGRU), convolutional neural networks (CNNs), and bidirectional long short-term memory units (BiLSTM), which significantly improves upon a range of prediction metrics compared to its predecessors in transcription factor binding site (TFBS), histone modification (HM), and DNase-I hypersensitive site (DHS) detection. Combined with a secondary model, it can be utilized for accurate classification of gene regulatory elements. The model can also detect weak transcription factor (TF) binding with higher accuracy as compared to previously developed methods and has the potential to accurately delineate TF binding motif specificities.},
-  pages={2023--01},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory},
-  preview={chromdl.png},
-  doi={10.1101/2023.01.27.525971},
-  google_scholar_id={UebtZRa9Y70C},
-  html={https://www.biorxiv.org/content/10.1101/2023.01.27.525971.abstract},
-  url={https://www.biorxiv.org/content/biorxiv/early/2023/01/29/2023.01.27.525971.full.pdf}
-}
 
 @article{hudaiberdiev2012chromosomal,
   bibtex_show={true},
