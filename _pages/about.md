@@ -20,7 +20,7 @@ I am a Computational Biologist passionate about applying ML/AI to biological pro
 - 13 years of work experience in computational biology (10 postgrad).
 - 6 years of machine learning exerience.
 - Expertise in Python, R, SQL, and modern data science workflows.
-- Experience in Software Development (Git, CI/CD, Unit testing).
+- Experience in Software Development (OOP, functional programming, Git, Unit testing).
 - A deep understanding of modern genetics and genomics methods.
 - Skilled writer and communicator.
 - Research leadership roles, editorial experience, and project management.

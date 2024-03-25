@@ -9,31 +9,29 @@
 - title: Scientific research areas
   type: list
   contents:
-    - Genomics
-    - Gene Regulation
-    - Disease Genetics (Type 2 Diabetes)
-    - Evolution
-    - Origin of Life
-    - Machine/Deep Learning
-    - Statistics
+    - Genomics, Gene Regulation, Disease Genetics (Type 2 Diabetes)
+    - Evolution, Origin of Life
+    - Statistical inference, Machine Learning, LLMs
 
 - title: Technical Skills & Domain Knowledges
   type: map
   contents:
     - name: Biology
-      value: Gene regulation (enhancers, silencers), 3D chromatin organization, condensates. Type 2 Diabetes- pancreatic islet (β) cells, islet-specific TFs, risk loci (GWAS). PopGen - common/rare variant analysis, LD blocks, GWAS, PRS. Evolution - non-coding regions, ultra-conserved regions, human-specific evolution (HARs, hCONDELs), protein(domain) evolution, phylogenetics/phylogenomics, genomic synteny, host-parasite arms race
+      value: Gene regulation (enhancers, silencers), epigenetics, pancreatic islet biology, variant analysis, population genetics, GWAS, PRS. 
+    - name: Evolutionary Analysis
+      value: non-coding regions, ultra-conserved regions, human-specific evolution (HARs, hCONDELs), protein(domain) evolution, phylogenetics/phylogenomics, genomic synteny, host-parasite arms race
     - name: ML/stats
       value: Statistical Inference, Biostatistics, Bayesian modeling, Probabilistic Reasoning, Causality, ConvNets, LSTMs, Transformers
     - name: ML tools
       value: Tensorflow, PyTorch, Keras, Scikit-learn, NumPy/SciPy, R, MATLAB/Octave
     - name: Bioinformatics
-      value: GWAS, fine-mapping, e/s/raQTLs, MPRA, ChIP-seq, RNA-seq, ATAC-seq, Hi-C, ENCODE, Roadmap, HCA, 4D Nucleome, UK Biobank, Containers (Docker, Singularity), Workflows (Nextflow, Snakemake), Massive data processing, parallel computing, HPC (SLURM, SGE)
+      value: GWAS, fine-mapping, e/s/raQTLs, MPRA, ChIP-seq, RNA-seq, ATAC-seq, Hi-C, ENCODE, Roadmap, HCA, 4D Nucleome, UK Biobank, Containers (Docker, Singularity), Workflows (Nextflow, Snakemake), massive-scale data processing, parallel computing, HPC (SLURM, SGE)
     - name: Software Developement
-      value: OOP, functional programming, Unit tests, Git, CI/CD
+      value: OOP, functional programming, Unit tests, Git
     - name: Languages
-      value: Python, R, Rust (learning), Bash, MATLAB, C#, C/C++, Per
+      value: Python, R, Rust (learning), Bash, MATLAB, C#, C/C++, Perl
     - name: Databases
-      value: MySQL, PostgreSQL, SQLite, SQL Server 2008/2010, Oracle 10g.
+      value: MySQL, SQLite, Oracle 10g.
     - name: OS
       value: Linux, MacOS
       
